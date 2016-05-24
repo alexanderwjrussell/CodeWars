@@ -8,3 +8,4 @@ end
 
 puts no_boring_zeros(1450)
 puts no_boring_zeros(950000)
+puts no_boring_zeros(105000)
