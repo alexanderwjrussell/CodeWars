@@ -6,6 +6,7 @@ def lose_weight(gender, weight, duration)
   end
   total_weight_loss = weight_loss * duration
   final_weight = weight - total_weight_loss
+  final_weight.to_i
 end
 
 puts lose_weight("M", 180, 15)
